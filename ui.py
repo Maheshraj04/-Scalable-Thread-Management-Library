@@ -1,5 +1,5 @@
 
-# Put this file in your project and run main.py
+# Put this file in your project and rus     main.py
 import ctypes
 try:
     ctypes.windll.shcore.SetProcessDpiAwareness(1)
