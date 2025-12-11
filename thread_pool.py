@@ -23,8 +23,8 @@ class ThreadPool:
         self.active_tasks = 0
 
         self.current_task = None          # (priority, fn, args)
-        self.progress = 0                 # % based progress
-        self.task_history = []            # Stores completed tasks
+        self.progress = 0                 # % based progress 
+        self.task_history = []            # Stores completed  tasks
 
         self.threads = []
         for _ in range(num_threads):
