@@ -49,7 +49,7 @@ class ThreadPool:
             except queue.Empty:
                 continue
 
-            # Track current running task
+# Track current running tasks
             self.current_task = (priority, args)
 
             with self.lock:
