@@ -60,7 +60,7 @@ class ThreadPool:
 
             # --- EXECUTE TASK WITH PROGRESS SIMULATION ---
             try:
-                # Task will run normally
+                # Task  run normally
                 fn(*args)
             except Exception as e:
                 print("Task error:", e)
