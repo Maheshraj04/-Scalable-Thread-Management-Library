@@ -13,7 +13,7 @@ import threading
 import time
 import random
 
-# sound on Window
+# sound on 
 try:
     import winsound
     def play_sound():
